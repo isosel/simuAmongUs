@@ -11,7 +11,6 @@ int main()
     int valRand1 = 0;
     int valRand2 = 0;
 
-
     string joueur[10] =
     {
         "P0",
@@ -59,12 +58,7 @@ int main()
     for(int j=0;j<1000;j++)
     {
         for(int i=0;i<10;i++)
-            nOcurrenceJoueur[i] = 0;
-        /*for(int i=0;i<10;i++)
-        {
-            MinMaxChance[i][0] = 100;
-            MinMaxChance[i][1] = 0;
-        }*/
+            nOcurrenceJoueur[i] = 0
 
         for(int i=0;i<40;i++)
         {
@@ -85,7 +79,6 @@ int main()
             if((float(nOcurrenceJoueur[i])/40)*100 > MinMaxChance[i][1])
                 MinMaxChance[i][1] = (float(nOcurrenceJoueur[i])/40)*100;
         }
-
     }
 
     for(int i = 0;i<10;i++)
