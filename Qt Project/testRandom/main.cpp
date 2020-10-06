@@ -1,3 +1,5 @@
+// monsieur cot cot
+
 #include <iostream>
 #include <random>
 #include <time.h>
